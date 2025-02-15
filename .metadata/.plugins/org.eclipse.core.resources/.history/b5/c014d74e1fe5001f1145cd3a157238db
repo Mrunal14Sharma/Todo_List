@@ -1,0 +1,7 @@
+package com.app.todo.entities;
+
+public class Task {
+		private long id;
+		private String title;
+		private boolean completed;
+}

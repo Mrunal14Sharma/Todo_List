@@ -1,0 +1,17 @@
+package com.app.todo.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.app.todo.services.TaskService;
+
+@Controller
+public class TaskController {
+
+	private final TaskService taskservice;
+	
+	public TaskController(TaskService taskservice) {
+		this.taskservice=taskservice;
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.app.todo.services;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.app.todo.entities.Task;
+
+
+@Service
+public class TaskService {
+
+	public List<Task> getAllTasks() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

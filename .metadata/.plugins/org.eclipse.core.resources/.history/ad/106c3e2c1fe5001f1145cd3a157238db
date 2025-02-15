@@ -1,0 +1,5 @@
+package com.app.todo.entities;
+
+public class Task {
+
+}
